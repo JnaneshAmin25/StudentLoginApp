@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "446434534058",
+    "project_id": "studentlogin-2f17d",
+    "storage_bucket": "studentlogin-2f17d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446434534058:android:09b76ca8caa6fadc08a6d3",
+        "android_client_info": {
+          "package_name": "com.example.studentlogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVCJWC5SMXPw6I9jZgHDRTrfkv63ukdFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

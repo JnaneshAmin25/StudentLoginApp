@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/header"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/purple"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/loginGroup"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="@drawable/rounded_background">
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loginBtn"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/signUpLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginGroup"
+        android:layout_centerHorizontal="true"
+        android:text="@string/signupClick"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purple"
+        android:text="@string/footer"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center" />
+</RelativeLayout>
